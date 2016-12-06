@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+
+    <link type="text/css" rel="stylesheet" href="include/css/tab-control.css" />
+    <style>
+        body{
+            /*height:2000px;*/
+            /*overflow: hidden;*/
+        }
+        iframe{
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo fl"><a href="#"><img src="images/logo.jpg" /></a></div>
+    <!--<ul class="fl">-->
+
+    <!--</ul>-->
+    <div class="fr">
+        <ul>
+            <li class="face">
+                <a href="" class="face">Hi,Jennifer</a>
+            </li>
+            <li class="message">
+                <a href="#"><span>1</span></a>
+            </li>
+            <li class="setting">
+                <a href=""></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<!-- 选项卡 -->
+<div class="tab-control">
+
+    <!-- 标签 -->
+    <div class="tab simple">
+
+
+
+        <ul>
+
+            <!-- <li>标签<a href="javascript:;">关闭</a></li> -->
+
+        </ul>
+
+    </div>
+
+
+    <div class="tab-find">
+
+
+
+        <ul>
+
+
+
+        </ul>
+
+    </div>
+
+    <!-- 主体 -->
+    <div class="clearfix">
+        <div class="menu clearfix fl">
+            <!-- <ul>
+                 <li><i class="i1"></i><em></em><h1><a href="#">首页</a></h1></li>
+                 <li>
+                     <i class="i2"></i>
+                     <em></em>
+                     <h1><a href="#">产品管理</a></h1>
+                     <ul>
+                         <li><h1><a href="#">产品基本信息管理</a></h1></li>
+                         <li><h1><a href="#">产品审核管理</a></h1></li>
+                     </ul>
+                 </li>
+                 <li>
+                     <i class="i3"></i>
+                     <em></em>
+                     <h1><a href="#">周边产品管理</a></h1>
+                     <ul>
+                         <li><h1><a href="#">产品基本信息管理</a></h1></li>
+                         <li><h1><a href="#">产品审核管理</a></h1></li>
+                     </ul>
+                 </li>
+                 <li>
+                     <i class="i4"></i>
+                     <em></em>
+                     <h1><a href="#">供应商管理</a></h1>
+                     <ul>
+                         <li><h1><a href="#">产品基本信息管理</a></h1></li>
+                         <li><h1><a href="#">产品审核管理</a></h1></li>
+                     </ul>
+                 </li>
+                 <li>
+                     <i class="i5"></i>
+                     <em></em>
+                     <h1><a href="#">合同管理</a></h1>
+                     <ul>
+                         <li><h1><a href="#">产品基本信息管理</a></h1></li>
+                         <li><h1><a href="#">产品审核管理</a></h1></li>
+                     </ul>
+                 </li>
+                 <li>
+                     <i class="i6"></i>
+                     <em></em>
+                     <h1><a href="#">财务管理</a></h1>
+                     <ul>
+                         <li><h1><a href="#">产品基本信息管理</a></h1></li>
+                         <li><h1><a href="#">产品审核管理</a></h1></li>
+                     </ul>
+                 </li>
+                 <li>
+                     <i class="i7"></i>
+                     <em></em>
+                     <h1><a href="#">系统管理</a></h1>
+                     <ul>
+                         <li><h1><a href="#">产品基本信息管理</a></h1></li>
+                         <li><h1><a href="#">产品审核管理</a></h1></li>
+                     </ul>
+                 </li>
+                 <li>
+                     <i class="i8"></i>
+                     <em></em>
+                     <h1><a href="#">团队管理</a></h1>
+                     <ul>
+                         <li><h1><a href="#">产品基本信息管理</a></h1></li>
+                         <li><h1><a href="#">产品审核管理</a></h1></li>
+                     </ul>
+                 </li>
+                 <li>
+                     <i class="i9"></i>
+                     <em></em>
+                     <h1><a href="#">服务师管理</a></h1>
+                     <ul>
+                         <li><h1><a href="#">产品基本信息管理</a></h1></li>
+                         <li><h1><a href="#">产品审核管理</a></h1></li>
+                     </ul>
+                 </li>
+                 <li>
+                     <i class="i10"></i>
+                     <em></em>
+                     <h1><a href="#">CMS管理</a></h1>
+                     <ul>
+                         <li><h1><a href="#">产品基本信息管理</a></h1></li>
+                         <li><h1><a href="#">产品审核管理</a></h1></li>
+                     </ul>
+                 </li>
+                 <li>
+                     <i class="i12"></i>
+                     <em></em>
+                     <h1><a href="#">CRM管理</a></h1>
+                     <ul>
+                         <li><h1><a href="#">产品基本信息管理</a></h1></li>
+                         <li><h1><a href="#">产品审核管理</a></h1></li>
+                     </ul>
+                 </li>
+             </ul>-->
+        </div>
+    <div class="main fl">
+
+
+
+    </div>
+</div>
+
+</div>
+<script type="text/javascript" src="include/js/jquery-1.8.3.min.js"></script>
+
+<script type="text/javascript" src="include/js/tab-control.js"></script>
+<script type="text/javascript">
+    $(function(){
+        InitLeftMenu();
+
+        //jQuery('div.tab-control div.main').css('height', (jQuery(document).height() - 160) + 'px');
+        var iframeHeight = function () {
+            var _height = $(window).height();
+            $('iframe').height(_height+100);
+
+        }
+        window.onresize = iframeHeight;
+        $(function () {
+            iframeHeight();
+        });
+        $(".main").css("width", $(document).outerWidth() - $(".menu").outerWidth() - 20);
+
+        //删除tab页签首页关闭按钮 首页页签无法关闭
+        $(".tab ul li").eq(0).find("a").remove();
+
+
+    });
+
+    function InitLeftMenu() {
+        var _menus = [
+
+            {"menuid":"0","menuname":"首页","url":"http://www.qq.com"},
+
+
+            {"menuid":"1","menuname":"产品管理",
+                "menus":[
+                    {"menuid":"0","menuname":"产品基本信息管理1","url":"html/product/index.html"},
+                    {"menuid":"1","menuname":"产品审核管理1","url":"http://www.sina.com.cn/"}
+                ]
+            },
+            {"menuid":"2","menuname":"周边产品管理",
+                "menus":[
+                    {"menuid":"0","menuname":"产品基本信息管理2","url":"http://bbs.csdn.net/topics/390299862"},
+                    {"menuid":"1","menuname":"产品审核管理2","url":"http://www.mycodes.net"}
+                ]
+            },
+            {"menuid":"3","menuname":"供应商管理",
+                "menus":[
+                    {"menuid":"0","menuname":"产品基本信息管理","url":"http://www.mycodes.net"},
+                    {"menuid":"1","menuname":"产品审核管理","url":"http://www.mycodes.net"}
+                ]
+            },
+                {"menuid":"4","menuname":"合同管理",
+                    "menus":[
+                        {"menuid":"0","menuname":"产品基本信息管理","url":"http://www.mycodes.net"},
+                        {"menuid":"1","menuname":"产品审核管理","url":"http://www.mycodes.net"}
+                    ]
+                },
+            {"menuid":"5","menuname":"财务管理",
+                "menus":[
+                    {"menuid":"0","menuname":"产品基本信息管理","url":"http://www.mycodes.net"},
+                    {"menuid":"1","menuname":"产品审核管理","url":"http://www.mycodes.net"}
+                ]
+            },
+            {"menuid":"6","menuname":"系统管理",
+                "menus":[
+                    {"menuid":"0","menuname":"产品基本信息管理","url":"http://www.mycodes.net"},
+                    {"menuid":"1","menuname":"产品审核管理","url":"http://www.mycodes.net"}
+                ]
+            },
+            {"menuid":"7","menuname":"团队管理",
+                "menus":[
+                    {"menuid":"0","menuname":"产品基本信息管理","url":"http://www.mycodes.net"},
+                    {"menuid":"1","menuname":"产品审核管理","url":"http://www.mycodes.net"}
+                ]
+            },
+            {"menuid":"8","menuname":"订单管理",
+                "menus":[
+                    {"menuid":"0","menuname":"产品基本信息管理","url":"http://www.mycodes.net"},
+                    {"menuid":"1","menuname":"产品审核管理","url":"http://www.mycodes.net"}
+                ]
+            },
+            {"menuid":"9","menuname":"服务师管理",
+                "menus":[
+                    {"menuid":"0","menuname":"产品基本信息管理","url":"http://www.mycodes.net"},
+                    {"menuid":"1","menuname":"产品审核管理","url":"http://www.mycodes.net"}
+                ]
+            },
+            {"menuid":"10","menuname":"CMS管理",
+                "menus":[
+                    {"menuid":"0","menuname":"产品基本信息管理","url":"http://www.mycodes.net"},
+                    {"menuid":"1","menuname":"产品审核管理","url":"http://www.mycodes.net"}
+                ]
+            },
+            {"menuid":"11","menuname":"CRM管理",
+                "menus":[
+                    {"menuid":"0","menuname":"产品基本信息管理","url":"http://www.mycodes.net"},
+                    {"menuid":"1","menuname":"产品审核管理","url":"http://www.mycodes.net"}
+                ]
+            }
+
+
+
+        ];
+
+       var menulist = "";
+           menulist += "<ul>";
+           $.each(_menus, function(i, o){
+               // console.log(i+1)
+                 menulist+= "<li><i class='i"+parseInt(i+1)+"'></i><em></em><h1><a href='javascript:;'>"+ o.menuname +"</a></h1><ul>";
+
+               if(o.menus){
+                   $.each(o.menus,function(k, j){
+                     menulist+="<li><h1><a href='javascript:;'>"+j.menuname+"</a></h1></li>";
+
+                   })
+               }
+                menulist+="</ul></li>";
+           });
+           menulist+="</ul>";
+        $(".menu").append(menulist);
+        TabControlAppend("0", "首页", _menus[0].url);
+
+        $(".menu>ul>li").click(function(){
+            var _this = $(this).index()
+            $.each(_menus, function(m, n){
+                if(n.menuid == _this && !n.menus){
+
+                    TabControlAppend(n.menuid, n.menuname, n.url);
+                }
+            })
+
+        });
+
+
+        $(".menu>ul>li li").click(function(){
+
+
+
+            var _this = $(this).index();
+            var __this = $(this).parent().parent().index();
+
+            $.each(_menus, function(p, q){
+
+               if(q.menus && p == __this) {
+                       $.each(q.menus, function (y, u) {
+                          // alert(_this)
+                           if(_this == y &&  p == __this){
+                              // alert(u.menuname)
+                               //alert(_this)
+                               TabControlAppend(u.menuid, u.menuname, u.url);
+                               var iframeHeight = function () {
+                                   var _height = $(window).height()-60;
+                                   $('iframe').height(_height+100);
+
+                               }
+                               window.onresize = iframeHeight;
+                               $(function () {
+                                   iframeHeight();
+                               });
+                              // alert(y)
+                           }
+                       })
+               }
+
+
+            })
+
+        });
+
+
+        $(".menu ul>li").hover(function(){
+            $(this).addClass("active");
+        },function(){
+            $(this).removeClass("active");
+        });
+
+
+    }
+
+
+
+
+
+
+</script>
+</body>
+
+</html>

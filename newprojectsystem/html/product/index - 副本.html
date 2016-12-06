@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jQuery.EasyUI- 1.2.2 应用实例</title>
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/product/default.css">
+    <link rel="stylesheet" href="../../plugins/jquery-easyui-1.5/themes/default/easyui.css">
+    <link rel="stylesheet" href="../../plugins/jquery-easyui-1.5/themes/icon.css">
+    <script src="../../plugins/jquery-1.4.4.min.js"></script>
+    <script src="../../plugins/jquery.easyui.min.1.2.2.js"></script>
+    <script src="../../js/menu.js"></script>
+    <script type="text/javascript">
+        var _menus = {
+            "menus":[
+                {"menuid":"1","icon":"icon-sys","menuname":"产品管理",
+                    "menus":[
+                        {"menuid":"1_1","menuname":"菜单","icon":"icon-add","url":"http://www.mycodes.net"},
+                    ]
+                },{"menuid":"2","icon":"icon-sys","menuname":"周边产品管理",
+                    "menus":[{"menuid":"2_1","menuname":"员工列表","icon":"icon-nav","url":""},
+                        {"menuid":"2_2","menuname":"视频监控","icon":"icon-nav","url":""}
+                    ]
+                },{"menuid":"3","icon":"icon-sys","menuname":"供应商管理",
+                    "menus":[{"menuid":"3_1","menuname":"添加部门","icon":"icon-nav","url":""},
+                        {"menuid":"3_2","menuname":"部门列表","icon":"icon-nav","url":""}
+                    ]
+                },{"menuid":"4","icon":"icon-sys","menuname":"合同管理",
+                    "menus":[{"menuid":"4_1","menuname":"收支分类","icon":"icon-nav","url":""},
+                        {"menuid":"4_2","menuname":"报表统计","icon":"icon-nav","url":""},
+                        {"menuid":"4_3","menuname":"添加支出","icon":"icon-nav","url":"demo2.html"}
+                    ]
+                },{"menuid":"5","icon":"icon-sys","menuname":"财务管理",
+                    "menus":[{"menuid":"5_1","menuname":"商品分类","icon":"icon-nav","url":""},
+                        {"menuid":"5_2","menuname":"商品列表","icon":"icon-nav","url":""},
+                        {"menuid":"5_3","menuname":"商品订单","icon":"icon-nav","url":""}
+                    ]
+                }
+            ]
+        };
+    </script>
+
+</head>
+<body class="easyui-layout" style="overflow-y: hidden"  scroll="no">
+
+<div class="header" region="north" split="true" border="false">
+    <div class="logo fl"></div>
+    <ul class="fl">
+
+    </ul>
+    <div class="fr">
+        <ul>
+            <li class="face">
+                <a href="" class="face">Hi,Jennifer</a>
+            </li>
+            <li class="message">
+                <a href="#"><span>1</span></a>
+            </li>
+            <li class="setting">
+                <a href=""></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div region="west" hide="true" split="true" title="导航菜单" style="width:180px;" id="west">
+    <div id="nav" class="easyui-accordion" fit="true" border="false">
+        <!--  导航内容 -->
+
+    </div>
+
+</div>
+<div id="mainPanle" region="center" style="background: #eee; overflow-y:hidden">
+    <div id="tabs" class="easyui-tabs"  fit="true" border="false" >
+
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
