@@ -1,0 +1,9 @@
+.r-c-tab .part-block .t_b_ul li.auto{
+	line-height:normal;
+	height:auto;
+}
+.r-c-tab .part-block .t_b_ul li h6{
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+}
